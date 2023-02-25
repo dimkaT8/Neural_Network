@@ -1,12 +1,12 @@
 #pragma once
 
-namespace NNEigen
+namespace NNE
 {
 
-#ifndef NNEIGEN_SCALAR
+#ifndef NNE_SCALAR
 typedef float Scalar;
 #else
-typedef NNEIGEN_SCALAR Scalar;
+typedef NNE_SCALAR Scalar;
 #endif
 
 } 
