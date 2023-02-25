@@ -5,6 +5,7 @@
 
 namespace  NNE
 {
+    
 class Network;
 class Callback
 {
