@@ -3,7 +3,7 @@
 #include "RNG.h"
 #include "/home/dimka/Eigen/Core"
 
-namespace NNEigen
+namespace NNE
 {
 namespace internal
 {
