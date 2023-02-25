@@ -1,5 +1,5 @@
 #include <iostream>
-#include "/home/dimka/eigen-master/Eigen/Core"
+#include "/home/dimka/Eigen/Core"
 
 typedef Eigen::MatrixXd Matrix;
 typedef Eigen::VectorXd Vector;
@@ -7,7 +7,7 @@ typedef Eigen::VectorXd Vector;
  using namespace std;
  int main()
  {
-   Matrix x = Matrix::Random(400, 100);
+   Matrix x = Matrix::Random(100, 10);
    cout << " Hello GitHub " << endl ;
    return 0;
  }
