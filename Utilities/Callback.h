@@ -15,9 +15,9 @@ class  Callback
         typedef Eigen::RowVectorXi IntegerVector;
 
         int _nbatch{};   // Общее количество партий
-        int _batch_id{}; // Индекс текущего мини-пакета (0, 1, ..., m_nbatch-1)
+        int _batch_id{}; // Индекс текущего мини-пакета (0, 1, ..., _nbatch-1)
         int _nepoch{};   // Общее количество эпох (один прогон на всем наборе данных) в процессе обучения
-        int _epoch_id{}; // Индекс текущей эпохи (0, 1, ..., m_nepoch-1)
+        int _epoch_id{}; // Индекс текущей эпохи (0, 1, ..., _nepoch-1)
 
     public:
 
